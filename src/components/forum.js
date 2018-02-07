@@ -1,13 +1,21 @@
 import React from 'react';
+import Posts from './posts';
+import styled from 'styled-components';
+// import Pagination from './pagination';
+
+const Wrapper = styled.div`
+  padding: 2%;
+`;
 
 class Forum extends React.Component {
   render() {
     return (
-      <div>
+      <Wrapper>
         <h1>MAQE Forums</h1>
         <h2>Subtitle</h2>
         <h3>Posts</h3>
-      </div>
+        <Posts />
+      </Wrapper>
     );
   }
 }
