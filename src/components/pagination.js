@@ -13,7 +13,9 @@ const ListItem = styled.li`
   padding: 10px 15px;
   border: none;
   border-radius: 20px;
+  font-weight: bold;
   &:hover, &:active {
+    cursor: pointer;
     color: white;
     background-color: red;
 

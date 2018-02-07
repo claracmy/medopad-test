@@ -9,7 +9,7 @@ const PostWrapper = styled.div`
   border-radius: 5px;
   margin-bottom: 15px;
   box-shadow: 1px 5px 3px #f0f0f0;
-  background-color: ${Key => parseInt(Key) % 2 === 0 ? '#f0f0f0': 'white'};
+  background-color: ${props => (parseInt(props.i) % 2) === 0 ? '#f0f0f0': 'white'};
   padding: 1%;
   overflow: auto;
 `;
@@ -35,9 +35,9 @@ class Posts extends React.Component {
   render () {
     return(
       <div>
-        {this.state.content.map(post => {
+        {this.state.content.map((post, i) => {
           return(
-            <PostWrapper key={post.id}>
+            <PostWrapper key={i} i={i}>
               <PostContentWrapper>
                 <PostContent post={post} />
               </PostContentWrapper>
