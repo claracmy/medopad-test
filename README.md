@@ -62,11 +62,12 @@ Implement the image below from the following JSON:
 ### Image  
 ![Image](https://i.imgur.com/hNI8uYkl.png)
 ### My Result
-![Result](https://i.imgur.com/6QGHFvkl.png)
+![Result](https://i.imgur.com/6QGHFvkl.png)  
 To view the project, download the repo and run ``` yarn install && yarn start ```
 ### Challenges and Reasoning
 - I chose styled components for styling because I wanted to practice the techniques (I used Sass stylesheet last time)  
 - Setting up Webpack took a while but I have better a understanding of configs now  
+- Editted the JSON file to generate forum post content, user avatar is used as a placeholder for thumbnail of the post.
 
 ### Future Work  
 - Write snapshot tests for the components
