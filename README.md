@@ -18,5 +18,6 @@ Technical Challenge for Medopad interview.
 ### Future Work  
 - Write snapshot tests for the components
 - Try using CSS Modules for styling  
-- Store variables likes colors and font sizes for reuse  
+- Store variables likes colors and font sizes for reuse 
+- Match fonts and thumbnails with image  
 
